@@ -1,0 +1,9 @@
+.nodes {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.button {
+  margin-bottom: 20px;
+}
