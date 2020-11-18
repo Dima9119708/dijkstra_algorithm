@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/dijkstra_algorithmnpm%20run%20deploy/static/css/main.585004f5.chunk.css",
+    "main.js": "/dijkstra_algorithmnpm%20run%20deploy/static/js/main.f9abe9be.chunk.js",
+    "main.js.map": "/dijkstra_algorithmnpm%20run%20deploy/static/js/main.f9abe9be.chunk.js.map",
+    "runtime-main.js": "/dijkstra_algorithmnpm%20run%20deploy/static/js/runtime-main.f91432ec.js",
+    "runtime-main.js.map": "/dijkstra_algorithmnpm%20run%20deploy/static/js/runtime-main.f91432ec.js.map",
+    "static/js/2.e8d974dd.chunk.js": "/dijkstra_algorithmnpm%20run%20deploy/static/js/2.e8d974dd.chunk.js",
+    "static/js/2.e8d974dd.chunk.js.map": "/dijkstra_algorithmnpm%20run%20deploy/static/js/2.e8d974dd.chunk.js.map",
+    "index.html": "/dijkstra_algorithmnpm%20run%20deploy/index.html",
+    "static/css/main.585004f5.chunk.css.map": "/dijkstra_algorithmnpm%20run%20deploy/static/css/main.585004f5.chunk.css.map",
+    "static/js/2.e8d974dd.chunk.js.LICENSE.txt": "/dijkstra_algorithmnpm%20run%20deploy/static/js/2.e8d974dd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f91432ec.js",
+    "static/js/2.e8d974dd.chunk.js",
+    "static/css/main.585004f5.chunk.css",
+    "static/js/main.f9abe9be.chunk.js"
+  ]
+}
