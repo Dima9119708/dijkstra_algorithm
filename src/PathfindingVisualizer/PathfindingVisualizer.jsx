@@ -1,9 +1,9 @@
 import React from 'react'
-import { dijkstra, getNodesInShortestPathOrder } from '../algorithms/dijkstra'
+import {dijkstra, getMinPath, getNodesInShortestPathOrder} from '../algorithms/dijkstra'
 import { Node } from './node/Node'
 import './pathfindingVisualizer.css'
 
-const gridList = [
+const grid = [
   '..................',
   '.XXXXXXXX.........',
   '..................',
@@ -14,15 +14,13 @@ const gridList = [
   '..................',
   '..................',
   '..................',
-]
-
-const grid = gridList.map(item => item.split(''))
+].map(item => item.split(''))
 
 const startX = 9
-const startY = 8
+const startY = 2
 
 const endX = 0
-const endY = 8
+const endY = 7
 
 
 export const PathfindingVisualizer = () => {
@@ -84,8 +82,9 @@ export const PathfindingVisualizer = () => {
 
     const allVisitedNodes = dijkstra(initGrid, startNode, finishNode)
     const path = getNodesInShortestPathOrder(finishNode)
+    const minPath = getMinPath(path)
 
-    animationAllNodes(allVisitedNodes, path)
+    animationAllNodes(allVisitedNodes, minPath)
   }
 
 

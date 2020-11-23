@@ -66,3 +66,46 @@ export function getNodesInShortestPathOrder(finishNode) {
 
   return path;
 }
+
+
+export function getMinPath (path) {
+
+  const minPath = [...path]
+
+  for ( let i = 0; i < minPath.length; i++ ) {
+
+    const prevNode = minPath[i - 1]
+    const currentNode = minPath[i]
+    const nextNode = minPath[i + 1]
+
+    const overlapColRow1 = currentNode.col === nextNode?.col
+                           &&
+                           currentNode.row === prevNode?.row
+    // Пример
+    // { row : 0, col : 4} prevNode
+    //         +
+    //         +
+    // { row : 0, col : 5} currentNode
+    //                  +
+    //                  +
+    // { row : 1, col : 5} nextNode
+
+
+    const overlapColRow2 = currentNode.row === nextNode?.row
+                           &&
+                           currentNode.col === prevNode?.col
+    // Пример
+    // { row : 1, col : 5} prevNode
+    //                  +
+    //                  +
+    // { row : 2, col : 5} currentNode
+    //         +
+    //         +
+    // { row : 2, col : 5} nextNode
+
+
+    if (overlapColRow1 || overlapColRow2) minPath.splice(i, 1)
+  }
+
+  return minPath
+}
