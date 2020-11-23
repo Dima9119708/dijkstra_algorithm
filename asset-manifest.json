@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/dijkstra_algorithm/static/css/main.585004f5.chunk.css",
-    "main.js": "/dijkstra_algorithm/static/js/main.f9abe9be.chunk.js",
-    "main.js.map": "/dijkstra_algorithm/static/js/main.f9abe9be.chunk.js.map",
+    "main.css": "/dijkstra_algorithm/static/css/main.de60ebb7.chunk.css",
+    "main.js": "/dijkstra_algorithm/static/js/main.853b2695.chunk.js",
+    "main.js.map": "/dijkstra_algorithm/static/js/main.853b2695.chunk.js.map",
     "runtime-main.js": "/dijkstra_algorithm/static/js/runtime-main.9c099940.js",
     "runtime-main.js.map": "/dijkstra_algorithm/static/js/runtime-main.9c099940.js.map",
-    "static/js/2.e8d974dd.chunk.js": "/dijkstra_algorithm/static/js/2.e8d974dd.chunk.js",
-    "static/js/2.e8d974dd.chunk.js.map": "/dijkstra_algorithm/static/js/2.e8d974dd.chunk.js.map",
+    "static/js/2.aecda00c.chunk.js": "/dijkstra_algorithm/static/js/2.aecda00c.chunk.js",
+    "static/js/2.aecda00c.chunk.js.map": "/dijkstra_algorithm/static/js/2.aecda00c.chunk.js.map",
     "index.html": "/dijkstra_algorithm/index.html",
-    "static/css/main.585004f5.chunk.css.map": "/dijkstra_algorithm/static/css/main.585004f5.chunk.css.map",
-    "static/js/2.e8d974dd.chunk.js.LICENSE.txt": "/dijkstra_algorithm/static/js/2.e8d974dd.chunk.js.LICENSE.txt"
+    "static/css/main.de60ebb7.chunk.css.map": "/dijkstra_algorithm/static/css/main.de60ebb7.chunk.css.map",
+    "static/js/2.aecda00c.chunk.js.LICENSE.txt": "/dijkstra_algorithm/static/js/2.aecda00c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9c099940.js",
-    "static/js/2.e8d974dd.chunk.js",
-    "static/css/main.585004f5.chunk.css",
-    "static/js/main.f9abe9be.chunk.js"
+    "static/js/2.aecda00c.chunk.js",
+    "static/css/main.de60ebb7.chunk.css",
+    "static/js/main.853b2695.chunk.js"
   ]
 }
